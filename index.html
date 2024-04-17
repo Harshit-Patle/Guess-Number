@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form class="form">
+        <label for="guessField" id="guess">Guess a Number</label>Between 1 to 100
+        <input type="text" class="guessField" id="guessField">
+        <input type="submit" id="subt" value="Submit Guess">
+    </form>
+    <div class="resultParas">
+        <p id="p1">Previous Guesses: <span class="gusses"></span></p>
+        <p id="p2">Guesses Remaining: <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

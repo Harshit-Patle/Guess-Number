@@ -1,0 +1,81 @@
+* {
+    font-family: 'Poppins';
+    background-color: #181818;
+    color: #fff;
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#guess {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#guessField {
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+#subt {
+    padding: 5px 15px;
+    font-size: 30px;
+
+}
+
+.resultParas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p2 {
+    margin-top: -7px;
+}
+
+.lowOrHi {
+    margin-top: -7PX;
+}
+
+#newGame {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: fit-content;
+    padding: 5px 20px;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 786px) {
+    #guessField {
+        padding: 7px;
+        font-size: 15px;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    #guess {
+        font-size: 40px;
+    }
+
+    #p2 {
+        margin-top: -10px;
+    }
+
+    .lowOrHi {
+        margin-top: -34px;
+    }
+
+    #newGame {
+        margin-top: -90px;
+    }
+}
